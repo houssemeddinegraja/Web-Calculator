@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mini Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculator.css">
+        <script src="calculator.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>My First Full Web Calculator</h1>
+            <h4>Designed by: Houssem Eddine Graja</h4>
+        </header>
+        <span>
+            Try any of the operations below with two numbers
+        </span>
+
+        <div class="calculator">
+            <div class="inputs">
+                <input type="number" id="x1" placeholder="First number here">
+                <input type="number" id="x2" placeholder="Second number here">
+            </div>
+            <div class="buttons1">
+                <button id="ad" onclick="add()">Add</button>
+                <button id="sub" onclick="subtract()">Subtract</button>
+            </div>
+            <div class="buttons2">
+                <button id="mul" onclick="multiply()">Multiply</button>
+                <button id="div" onclick="divide()">Divide</button>
+            </div>
+            <div class="buttons3">
+                <button id="gcd" onclick="findGCD()">GCD</button>
+                <button id="lcm" onclick="findLCM()">LCM</button>
+            </div>
+            <div class="buttons4">
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="result-elt">
+            <p id="result">Your result here</p>
+        </div>
+
+    </body>
+</html>
