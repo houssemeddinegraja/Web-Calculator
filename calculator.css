@@ -1,0 +1,91 @@
+header {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+span {
+    text-align: center;
+    border:3px groove black;
+    display:block;
+    margin: auto;
+    width: fit-content;
+    font-style:oblique;
+    margin-bottom:60px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#x1 {
+    text-align: center;
+    border: 3px ridge black;
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#x2 {
+    text-align: center;
+    border: 3px ridge black;
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.buttons1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.buttons2, .buttons3 {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-bottom: 40px;
+}
+
+#ad, #sub, #mul, #div, #gcd, #lcm, #reset {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px inset black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#reset {
+    display: block;
+    margin: auto;
+    width: 250px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.result-elt {
+    display:block;
+    margin: auto;
+    text-align: center;
+    border: 3px groove black;
+    width: fit-content;
+    padding: 10px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#ad:hover, #sub:hover, #mul:hover, #div:hover, #gcd:hover, #lcm:hover, #reset:hover {
+    background-color: lightgray;
+}
+
+#ad:active, #sub:active, #mul:active, #div:active, #gcd:active, #lcm:active, #reset:active {
+    background-color: gray;
+}
